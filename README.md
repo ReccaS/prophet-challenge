@@ -67,4 +67,4 @@ Now, you need to produce a time series model that analyzes and forecasts pattern
      * What's the lowest point for search traffic in the calendar year?
 
 ## References 
-
+Python code file from edX Boot Camps LLC, and is intended for educational purposes only.
