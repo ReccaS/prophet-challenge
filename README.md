@@ -10,20 +10,20 @@ The instructions for this Challenge are divided into four steps, as follows:
 * Step 3: Relate the search traffic to stock price patterns.
 * Step 4: Create a time series model with Prophet.
 
-  ## Installation
-  Download the following file name:
+## Installation
 
-  * Before You Begin
-  Before starting the challenge, be sure to complete the following steps:
+Download the following file name:
+
+**Before You Begin**
+Before starting the challenge, be sure to complete the following steps:
     * Create a new repository for this project called prophet-challenge. Do not add this homework assignment to an existing repository.
     * Clone the new repository to your computer.
     * Inside your local Git repository, add the starter files from your file downloads.
     * Push these changes to GitHub or GitLab.
 You will use Google Colab to complete this challenge; make sure to download your notebook file and place it in your repository again after completing the challenge.
 
-  ## Instruction
-* Step 1: Find Unusual Patterns in Hourly Google Search Traffic
-
+## Instruction
+**Step 1: Find Unusual Patterns in Hourly Google Search Traffic**
 The data science manager asks if the Google search traffic for the company links to any financial events at the company. Or, does the search traffic data just present random noise? To answer this question, pick out any unusual patterns in the Google search data for the company, and connect them to the corporate financial events.
 To do so, complete the following steps:
 
@@ -31,7 +31,7 @@ To do so, complete the following steps:
   2. Calculate the total search traffic for the month, and then compare the value to the monthly median across all months.
   3. Did the Google search traffic increase during the month that MercadoLibre released its financial results? Write your answer in the space provided in the starter file.
 
-* Step 2: Mine the Search Traffic Data for Seasonality
+**Step 2: Mine the Search Traffic Data for Seasonality**
 Marketing realizes that they can use the hourly search data, too. If they can track and predict interest in the company and its platform for any time of day, they can focus their marketing efforts around the times that have the most traffic. This will get a greater return on investment (ROI) from their marketing budget.
 To that end, you want to mine the search traffic data for predictable seasonal patterns of interest in the company.
 To do so, complete the following steps:
@@ -40,7 +40,7 @@ To do so, complete the following steps:
   3. Group the hourly search data to plot the average traffic by the week of the year. Does the search traffic tend to increase during the winter holiday period (weeks 40 through 52)?
   4. Are there any time based trends that you can see in the data? Write your answer in the space provided in the starter file.
 
-* Step 3: Relate the Search Traffic to Stock Price Patterns
+**Step 3: Relate the Search Traffic to Stock Price Patterns**
 You mention your work on the search traffic data during a meeting with people in the finance group at the company. They want to know if any relationship between the search data and the company stock price exists, and they ask if you can investigate.
 To do so, complete the following steps:
   1. Read in and plot the stock price data. Concatenate the stock price data to the search data in a single DataFrame.
@@ -50,7 +50,7 @@ To do so, complete the following steps:
     * “Hourly Stock Return”, which holds the percent change of the company's stock price on an hourly basis
   4. Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns? Write your answer in the space provided in the starter file.
 
-* Step 4: Create a Time Series Model with Prophet
+**Step 4: Create a Time Series Model with Prophet**
 Now, you need to produce a time series model that analyzes and forecasts patterns in the hourly search data. To do so, complete the following steps:
   1. Set up the Google search data for a Prophet forecasting model.
   2. After estimating the model, plot the forecast. How's the near-term forecast for the popularity of MercadoLibre?
