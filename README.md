@@ -20,10 +20,10 @@ Download the following file name:
 
 Before starting the challenge, be sure to complete the following steps:
 
-    * Create a new repository for this project called prophet-challenge. Do not add this homework assignment to an existing repository.
-    * Clone the new repository to your computer.
-    * Inside your local Git repository, add the starter files from your file downloads.
-    * Push these changes to GitHub or GitLab.
+   * Create a new repository for this project called prophet-challenge. Do not add this homework assignment to an existing repository.
+   * Clone the new repository to your computer.
+   * Inside your local Git repository, add the starter files from your file downloads.
+   * Push these changes to GitHub or GitLab.
     
 You will use Google Colab to complete this challenge; make sure to download your notebook file and place it in your repository again after completing the challenge.
 
